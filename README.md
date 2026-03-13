@@ -20,5 +20,13 @@ AE文件管理-1.0.0-arm64-mac.zip — 免安装版
 
 仅支持 Apple Silicon（M1/M2/M3）Mac
 
+## 打开文件损坏隔离的方法
+
+打开终端（Terminal）。
+输入命令：sudo xattr -rd com.apple.quarantine
+输入一个空格。
+将【应用程序】文件夹中的应用拖入终端窗口，回车。
+输入系统密码（输入时不会显示），回车即可。
+
 
 
