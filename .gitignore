@@ -1,0 +1,6 @@
+node_modules/
+out/
+release/
+*.zip
+dist/
+.DS_Store
